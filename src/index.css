@@ -1,13 +1,73 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* body {
+  background-color: #ccddff;
 }
+.app {
+  text-align: center;
+}
+.container {
+  background-color: rgb(7, 2, 71);
+  justify-content: center;
+  width: 50%;
+  margin-left: 26%;
+  margin-top: 5%;
+  text-align: center;
+  padding: 20px;
+}
+input[type="text"],
+select {
+  width: 75%;
+  padding: 12px 20px;
+  margin: 30px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 20px;
+  background: lightblue;
+}
+button {
+  width: max-content;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  background-color: rgb(100, 156, 196);
+  color: rgb(151, 15, 15);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
 }
+button:hover {
+  background-color: rgb(85, 40, 211);
+}
+.header {
+  width: 100%;
+  padding: 12px 20px;
+  color: white;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.list-heading {
+  color: #7e0b0b;
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: left;
+  background-color: cadetblue;
+  width: 60%;
+}
+.listData {
+  color: #1a1868;
+  font-size: 27px;
+  background-color: #8bc0ee;
+  text-align: left;
+  padding-left: 30px;
+  width: 53%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  border-radius: 10px;
+}
+.btn-position {
+  position: relative;
+  left: 11%;
+  top: -54px;
+} */
