@@ -1,8 +1,6 @@
-body {
-  background-color: #ccddff;
-}
 .app {
   text-align: center;
+  background: #ccddff;
 }
 .container {
   background-color: rgb(7, 2, 71);
