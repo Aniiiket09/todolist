@@ -1,9 +1,9 @@
 .app {
   text-align: center;
-  background: #ccddff;
+  background: #f3ddd8;
 }
 .container {
-  background-color: rgb(7, 2, 71);
+  background: rosybrown;
   justify-content: center;
   width: 50%;
   margin-left: 26%;
@@ -13,14 +13,14 @@
 }
 input[type="text"],
 select {
-  width: 70%;
-  padding: 20px 20px;
-  margin: 30px 0;
+  width: 49%;
+  padding: 23px 17px;
+  margin: 16px 0;
   display: inline-block;
   border: 1px solid #ccc;
   border-radius: 90px;
   box-sizing: border-box;
-  font-size: 25px;
+  font-size: 18px;
   color: #60c0ba;
   background: #081d23;
 }
@@ -37,35 +37,39 @@ button {
   font-weight: bold;
 }
 .header {
-  width: 100%;
-  padding: 12px 20px;
-  color: white;
-  font-size: 75px;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  border: solid grey 1px;
+  background: #532d54;
+  border: 1px solid grey;
   border-radius: 15px;
-  background: cadetblue;
+  font-size: 38px;
+  padding: 2px 20px;
+  width: 100%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
 }
 .list-heading {
   color: #fff;
-  font-size: 51px;
+  font-size: 30px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  text-align: right;
+  text-align: left;
   background-color: #3c4c4d;
-  width: 40%;
-  margin: auto;
-  margin-bottom: 15px;
+  width: 28%;
+  /* margin: auto; */
+  margin-bottom: 1px;
+  margin-bottom: 0px;
+  border: solid grey 1px;
+  border-radius: 21px;
 }
 .listData {
   color: #f8f9fa;
-  font-size: 26px;
-  background-color: #848484;
+  font-size: 23px;
+  /* background-color:  */
+  background-color: #5c4545;
   text-align: left;
-  padding-left: 30px;
-  width: 67%;
-  padding-bottom: 2%;
-  padding-top: 2%;
-  border-radius: 22px;
+  padding-left: 28px;
+  width: 63%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  border-radius: 20px;
 }
 .btn-position {
   position: relative;
@@ -74,25 +78,25 @@ button {
   margin-bottom: -5%;
 }
 .action-icons {
-  height: 62px;
-
+  height: 68px;
   color: #166942;
-
-  background: #1972e6;
+  background: #cb99c0;
   border: solid white 5px;
   border-radius: 75px;
   margin-left: 15px;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
+  margin-left: 38px;
+  margin-right: 97px;
 }
 
 .action-icons :hover {
   background-color: rgb(85, 40, 211);
 }
 #btn {
-  font-size: 25px;
+  font-size: 13px;
   color: white;
-  background: teal;
-  border: solid white 5px;
-  border-radius: 52px;
+  background: #8d657e;
+  border: solid white 3px;
+  border-radius: 21px;
   position: relative;
 }
