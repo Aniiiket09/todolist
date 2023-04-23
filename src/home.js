@@ -13,12 +13,9 @@ function Home() {
     if (activity !== "")
       setlistData((listdata) => {
         const updatedList = [...listdata, activity];
-        console.log(updatedList);
+
         setActivity("");
 
-        // if (setlistData.length === null) {
-        //   return setlistData;
-        // }
         return updatedList;
       });
   }
@@ -54,7 +51,7 @@ function Home() {
         alt=""
       />
 
-      <div className="list-heading">Here is your List :{")"}</div>
+      <div className="list-heading">Here is your Todo-List :{")"}</div>
       {listdata !== [] &&
         listdata.map((data, i) => {
           return (
@@ -74,7 +71,11 @@ function Home() {
             </>
           );
         })}
-      {listdata.length >= 1 && <button onClick={removeAll}>Remove ALL</button>}
+      {listdata.length >= 1 && (
+        <button onClick={removeAll} id="btn">
+          Remove ALL
+        </button>
+      )}
     </div>
   );
 }
