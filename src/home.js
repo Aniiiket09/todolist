@@ -8,13 +8,19 @@ function Home() {
   const [listdata, setlistData] = useState([]);
 
   // FUNCTIONALITY FOR ADDACTIVITY
+
   function addActivity() {
-    setlistData((listdata) => {
-      const updatedList = [...listdata, activity];
-      console.log(updatedList);
-      setActivity("");
-      return updatedList;
-    });
+    if (activity !== "")
+      setlistData((listdata) => {
+        const updatedList = [...listdata, activity];
+        console.log(updatedList);
+        setActivity("");
+
+        // if (setlistData.length === null) {
+        //   return setlistData;
+        // }
+        return updatedList;
+      });
   }
   // FUNCTIONALITY FOR REMOVEACTIVITY FROM LIST DATA
   function removeActivity(i) {
@@ -40,20 +46,29 @@ function Home() {
           setActivity(e.target.value);
         }}
       />
-      <button onClick={`listdata.length==0?)`}>Add Activity </button>
 
-      <p className="list-heading">Here is your List :{")"}</p>
+      <img
+        className="action-icons "
+        onClick={addActivity}
+        src="https://cdn-icons-png.flaticon.com/128/1828/1828926.png"
+        alt=""
+      />
+
+      <div className="list-heading">Here is your List :{")"}</div>
       {listdata !== [] &&
         listdata.map((data, i) => {
           return (
             <>
               <p key={i}>
-                <div className="listData ">
-                  {data.data > 0 ? "plz enter something" : data}
-                </div>
+                <div className="listData ">{data}</div>
 
                 <div className="btn-position ">
-                  <button onClick={() => removeActivity(i)}>Remove(-)</button>
+                  <img
+                    className="action-icons "
+                    onClick={() => removeActivity(i)}
+                    src="https://cdn-icons-png.flaticon.com/128/1828/1828906.png"
+                    alt="remove-icon"
+                  />
                 </div>
               </p>
             </>
