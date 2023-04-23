@@ -4,6 +4,7 @@ import "./index.css";
 //HOME COMPONENT
 function Home() {
   //USEING HOOKS USESTATE HOOK AND INITIALIZING FOR  ACTIVITY AND LIST
+  //Using
   const [activity, setActivity] = useState("");
   const [listdata, setlistData] = useState([]);
 
@@ -37,7 +38,7 @@ function Home() {
       <div className="header">Todo List</div>
       <input
         type="text"
-        placeholder="type something into box"
+        placeholder="type something into box to preview in list"
         value={activity}
         onChange={(e) => {
           setActivity(e.target.value);
